@@ -1,0 +1,225 @@
+/*header*/
+#header{background:url(../images/main_bg_2.jpg) no-repeat top center;
+	height:634px;
+	text-align:center;}
+
+	
+/*thumbnail*/
+.thumbnail_po{position:relative;
+	height:320px;}
+#thumbnail{padding:0 36px;
+	position:absolute;
+	top:-120px;
+	left:0;
+	text-align:right;}
+#thumbnail li{float:left;
+	margin:0 10px;
+	position:relative;
+	width:292px;
+	height:240px;
+	box-sizing:border-box;
+	position:relative;}
+.tm_bg1{background:url(../images/thumnail_1.jpg)no-repeat top center;}
+.tm_bg2{background:url(../images/thumnail_2.jpg)no-repeat top center;}
+.tm_bg3{background:url(../images/thumnail_3.jpg)no-repeat top center;}
+.tm_bg4{background:url(../images/thumnail_4.jpg)no-repeat top center;}
+.tntext_bg{background:rgba(0,0,0,0.7);
+	width:100%;
+	height:20.83%;
+	position:absolute;
+	left:0;
+	top:180px;
+	transition:all 0.3s;}
+.tmtext_box{position:absolute;
+	top:180px;
+	left:0;
+	width:100%;}
+#thumbnail .font_20{
+	color:#ece9e0;
+	font-weight:700;
+	margin-right:20px;}
+#thumbnail .thm_hover{color:rgba(255,255,255,0.2);
+	font-familyt:'silgothic';
+	line-height:14px;
+	opacity:0;
+	margin-right:20px;}
+#thumbnail li:hover .thm_hover{opacity:1;}
+#thumbnail li:hover .tntext_bg{height:100%;
+	top:0}
+
+/*oneday*/
+#oneday{width:100%;
+	margin-top:110px;}
+.oneday_bg1{position:absolute;
+	height:500px;
+	width:881px;
+	background:url(../images/program_p1.jpg) no-repeat;
+	box-sizing:border-box;
+	top:-110px;
+	left:0;
+	z-index:-3;}
+.p_text_a{width:65.11%;
+	position:absolute;
+	left:0;
+	top:0;
+	height:500px;
+	z-index:2;}
+.oneday_box1{width:78.65%;
+	height:500px;
+	position:absolute;
+	right:0;
+	background:#dad6cb url(../images/p_bg1.png) no-repeat 440px top;
+	background:}
+.p_text .font_40{padding-bottom:35px;
+	margin-bottom:25px;
+	border-bottom:solid 7px #807966;}
+.p_text{width:300px;
+	padding:105px 0 0 80px;}
+.p_text .button{margin-top:45px;}
+#oneday .box_1320{position:relative}
+#oneday .box_1320 .p_text{float:left;}
+
+..oneday_bg3{position:absolute;
+	height:500px;
+	width:55.73%;
+	top:0;
+	left:44.27%;
+	background:url(../images/program_bg1.png) no-repeat left top;
+	z-index:0;}
+.oneday_bg2{position:absolute;
+	height:500px;
+	width:78.65%;
+	top:0;
+	left:100px;
+	background:#dad6cb;
+	z-index:1;}
+.oneday_banner{height:500px;
+	position:relative;
+	width:100%}
+..oneday_img{float:left;
+	padding-left:35.28%;
+	width:38.54%;
+	z-index:4;
+	top:55px;
+	background:url(../images/program_p2.jpg) no-repeat left top;
+	height:388px;}
+.oneday_img img{height:100%;}
+.p_list{width:1048px;
+	margin:auto;
+	overflow:hidden;
+	padding:80px 0 200px}
+#oneday .p_list{padding-bottom:100px;}
+.p_list li{float:left;
+	text-align:center;
+	background:#dad6cb;
+	height:429px;
+	margin:10px;overflow:hidden;
+	transition:all 0.5s}
+.p_list li:hover .list_h img{transform:scale(1.1, 1.1);}
+.p_list li:hover .plist_t{transform:scale(1.1, 1.1);}
+.p_list li:hover{background:#d0c9b6}
+.list_h img{transition:transform 0.5s}
+.list_h{width:329px;
+	height:282px;
+	overflow:hidden;}
+.p_list .font_12{padding:40px 0 6px;
+	line-height:12px;}
+.p_list .font_20{line-height:24px;
+	padding-bottom:40px;}
+
+
+/*twodays*/
+#twodays{width:100%;
+	position:relative;}
+.twodays_bg2{width:50%;
+	position:absolute;
+	background:#dad6cb;
+	height:500px;
+	top:100px;
+	right:0;
+	z-index:-2;}
+
+.twodays_bg1{width:55.678%;
+	height:653px;
+	background:url(../images/program_p3.png) no-repeat top right;
+	z-index:-1;
+	position:absolute;}
+.twodays_po{height:653px}
+#twodays .p_text{padding:200px 0 0;}
+.p_text_b{width:38.49%;
+	box-sizing:border-box;
+	margin-left:61.51%;}
+/**1320떄 간격만 좀 수정하면 될듯!*/
+
+
+/*threedays*/
+#threedays{width:100%;
+	position:relative;}
+.threedays_bg2{width:100%;
+	height:418px;
+	background:#dad6cb;
+	box-sizing:border-box;
+	z-index:-2}
+#threedays .box_1320{position:relative;}
+.threedays_img{margin-left:10.4%;
+	padding-top:50px;
+	float:right;}
+.threedays_img img{display:block;}
+.threedays_bg{position:absolute;
+	top:-105px;
+	right:67.2%;
+	width:32.8%;
+	height:499px;
+	background:url(../images/program_p4.jpg) no-repeat top right;}
+.threedays_bg3{position:absolute;
+	background:url(../images/program_bg2.png) no-repeat left top;
+	height:418px;
+	width:39.69%;
+	left:60.31%;
+	top:0;}
+#threedays .threedays_img{top:0;
+	right:0;
+	position:absolute;}
+#threedays .p_text{top:0;
+	left:32.8%;
+	position:absolute;
+	padding-top:65px;}
+.p_text_c{width:100%;
+	position:absolute;
+	z-index:1;
+	top:0;
+	left:0;}
+
+/*theme*/
+#theme{position:relative;}
+.theme_bg1{position:absolute;
+	width:72.92%;
+	height:588px;
+	background:#dad6cb;
+	box-sizing:border-box;
+	top:50px;
+	left:0;
+	z-index:-1}
+.theme_bg2{position:absolute;
+	width:77.60%;
+	z-index:-2;
+	height:680px;
+	background:url(../images/program_p7.jpg) no-repeat top right;
+	top:0;
+	right:0;}
+#theme .box_1320{position:relative;}
+#theme .box_1320 div{float:left}
+.theme_img{/* margin-left:21.43%; */
+	padding-top:144px;}
+.theme_bg3{width:83.33%;
+	height:588px;
+	background:#dad6cb;
+	position:absolute;
+	top:50px;
+	left:0;
+	z-index:-1;}
+.theme_banner{height:680px;}
+.theme_po{width:100%;
+	position:absolute;}
+#theme .p_text{padding-top:197px;
+	padding-left:115px}

@@ -1,0 +1,124 @@
+/*header*/
+#header{background:url(../images/about_title.jpg) no-repeat top center;
+	height:657px;
+	text-align:center;}
+
+/*about*/
+#about{background:url(../images/about_bg.png) no-repeat top center;
+	width:100%;
+	height:1064px;}
+.about_in{width:1320px;
+	margin:auto;
+	position:relative;}
+.about_ps{position:absolute;
+	left:0;
+	top:-110px;
+	width:1170px;}
+.about_text{width:466px;
+	height:757px;
+	background:rgba(255,255,255,0.8);
+	padding:30px;
+	box-sizing:border-box;
+	color:#2b2a26;
+	line-height:28px;}
+.about_text .font_20{line-height:30px;
+	padding-top:90px;}
+.about_text{float:left}
+.about_img{float:right;
+	box-shadow:6px 6px 10px rgba(0,0,0,0.2)}
+h5{font-size:50px;
+	line-height:50px;
+	font-weight:800;
+	color:#615e54;}
+.about_text span{display:block;
+	padding:30px 0 35px;}
+.about_text p{padding:0 10px;}
+.history{position:absolute;
+	top:285px;
+	right:0;
+	background:rgba(185,181,165,0.95);
+	padding:50px 40px 30px 57px;
+	color:#2b2a26;}
+.history ul{float:left;}
+.year li{width:92px;
+	text-align:center;
+	background:rgba(43,42,38,0.5);
+	border-radius:46px;
+	color:#fff;
+	font-size:20px;
+	padding-top:33px;
+	font-weight:700;}
+.history_bg{position:absolute;
+	right:0;
+	top:942px;
+	background:rgba(185,181,165,1);
+	height:528px;
+	width:35%;}
+/*배경부분 수정할것*/
+
+.how_award{margin-left:47px;}
+.how_award li{padding-top:33px}
+.how_award li:nth-child(1){padding-top:6px}
+.how_award li:nth-child(2){padding-top:20px}
+.history li{height:92px;
+	margin-bottom:20px;
+	box-sizing:border-box;}
+	
+/*howcome*/
+#howcome{position:relative;
+	height:1250px;}
+.howcome_po{background:rgba(218,214,203,0.9);
+	position:absolute;
+	z-index:-2;
+	width:100%;
+	top:-154px;
+	left:0;
+	height:1427px}
+#howcome h5{padding:230px 0 77px;}
+.box_1320{width:1320px;	margin:auto;}
+.howcome_in{position:relative}
+.map{position:absolute;
+	width:67.18%;
+	height:710px;
+	top:0;
+	left:0;
+	display:block;
+	background:url(../images/map.jpg) no-repeat top right;
+	background-size:cover}
+.howcome_img{position:absolute;
+	top:60px;
+	right:0;
+	z-index:-1;
+	width:46.25%;
+	height:602px;
+	background:url(../images/howcom_img.jpg) no-repeat top left}
+.po{position:relative;
+	height:1129px}
+.howcome_text{width:1100px;
+	height:320px;
+	background:rgba(255,255,255,0.9);
+	box-sizing:border-box;
+	padding:55px 80px 55px 55px;
+	position:absolute;
+	bottom:0px;
+	right:0;
+	box-shadow:6px 6px 10px rgba(0,0,0,0.2)}
+.howcome_text ul li div{float:left;}
+.bus img{display:block;
+	padding:2px 10px 0 0}
+.bus li div{padding:5px 0;
+	box-sizing:border-box;}
+.howcome_text ul li div:nth-child(2){width:200px;}
+.howcome_text ul li div:nth-child(1){width:45;}
+.howcome_text ul li div:nth-child(3){width:180px;}
+.subway{/* margin-right:190px; */
+	height:218px;
+	float:left;
+	width:435px;}
+.bus{float:right;
+	width:435px}
+.subway li:nth-child(1){padding-bottom:30px;}
+.bus li:nth-child(1){padding-bottom:25px;}
+.subway li:nth-child(2) .bold{color:#ef6c05}
+
+

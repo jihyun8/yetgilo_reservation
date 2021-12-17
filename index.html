@@ -1,0 +1,381 @@
+<!doctype html>
+<html>
+<head>
+	<title>옛길로</title>
+	<link href="css/essential.css" rel="stylesheet" type="text/css">
+	<link href="images/bicon.png" rel="icon" type="image/png" sizes="32x32">
+	<link href="css/reservation.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery-3.5.1.min.js"></script><!--제이쿼리 라이브러리-->
+	<script src="js/popup.js"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!--aos css 연결-->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!--aos js 연결-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=1350">
+	<script src="js/menu.js"></script>
+	
+	
+</head>
+<body>
+	<script>
+	  AOS.init();
+	</script>
+	<div id="header">
+		<div class="header_hover">
+			<div id="header_inner">
+				<div class="w_box"></div>
+				<div class="hover_box">
+					<a href="https://jihyun8.github.io/yetgilo/"><img src="images/logo_h.png" alt="메인로고" class="logo_h"></a>
+				</div>
+				<a href="https://jihyun8.github.io/yetgilo/"><img src="images/logo_m.png" alt="메인로고" class="logo"></a>
+				<ul class="nav">
+					<li><a href="https://jihyun8.github.io/yetgilo_about/" class="m1">회사소개</a><a href="https://jihyun8.github.io/yetgilo_about/">회사소개</a></li>
+					<li class="program_m"><a href="https://jihyun8.github.io/yetgilo_program/" class="m1">프로그램</a><a href="https://jihyun8.github.io/yetgilo_program/">프로그램</a>
+						<ul class="sub">
+							<li><a href="https://jihyun8.github.io/yetgilo_program1/">당일여행</a><div class="subh_box"></div></li>
+							<li><a href="https://jihyun8.github.io/yetgilo_program2">1박2일</a><div class="subh_box"></div></li>
+							<li><a href="https://jihyun8.github.io/yetgilo_program3">2박3일</a><div class="subh_box"></div></li>
+							<li><a href="https://jihyun8.github.io/yetgilo_program4/">테마여행</a><div class="subh_box"></div></li>				
+						</ul>
+					</li>
+					<li><a href="https://jihyun8.github.io/yetgilo_reservation" class="m1">예약문의</a><a href="https://jihyun8.github.io/yetgilo_reservation">예약문의</a></li>
+					<li><a href="https://jihyun8.github.io/yetgilo_community" class="m1">커뮤니티</a><a href="https://jihyun8.github.io/yetgilo_community">커뮤니티</a></li>
+				</ul>
+			</div><!--header_inner E-->
+		</div><!--header-hover E-->
+		
+			<h4>예약문의</h4>
+			<p class="sub_title font_16 sub_title2">RESERVATION REQUESTION</p>
+		
+	</div><!--header E-->
+	<div id="reservation">
+		<div class="box_1320">
+		<div class="reserv_in">
+			<img src="images/reservation_p1.jpg" alt="예약문의사진" class="reservation_p1" data-aos="fade-right"  data-aos-duration="1800">
+			<div class="Rtitle_box">
+				<p class="font_40 bold">예약하기</p>
+			</div>
+		<form>
+			<div class="label_box">
+				<label>이름</label>
+				<label>비번</label>
+				<label>연락처</label>
+				<label>희망 프로그램</label>
+				<label>희망날짜</label>
+				<label class="howmany_l">인원수</label>
+				<label>비고</label>
+			</div>
+			<div class="input_box">
+				<input type="text" name="name" placeholder="이름을 입력하세요" maxlength="10"></input>
+				<input type="password" name="password" placeholder="10자 이내로 비밀번호를 입력하세요"maxlength="10"></input>
+				<input type="tel" name="phone"  placeholder="'-'는 빼고 숫자만 입력해주세요" maxlength="12"></input>
+				<select class="program_name" value="">
+					<option>프로그램을 선택해주세요</option>
+					<option>온달장군과 함께하는 고구려 역사</option>
+					<option>서동요와 함께하는 백제역사</option>
+					<option>만파식적과 함께하는 신라역사</option>
+					<option>고구려반바퀴(1박2일)</option>
+					<option>백제반바퀴(1박2일)</option>
+					<option>신라반바퀴(1박2일)</option>
+					<option>고구려한바퀴(2박3일)</option>
+					<option>백제한바퀴(2박3일)</option>
+					<option>신라한바퀴(2박3일)</option>
+					<option>신라문화제와 함께하는 신라 여행</option>
+					<option>기차여행과 함께하는 고구려 여행</option>
+					<option>경주 야경과 함께하는 신라의 달밤</option>
+				</select>
+				<div class="day_box">
+				<select class="day">
+					<option>2020</option>
+					<option>2019</option>
+				</select>
+				<select class="day">
+					<option>01</option>
+					<option>02</option>
+					<option>03</option>
+					<option>04</option>
+					<option>05</option>
+					<option>06</option>
+					<option>07</option>
+					<option>08</option>
+					<option>09</option>
+					<option>10</option>
+					<option>11</option>
+					<option>12</option>
+				</select>
+				<select class="day">
+					<option>01</option>
+					<option>02</option>
+					<option>03</option>
+					<option>04</option>
+					<option>05</option>
+					<option>06</option>
+					<option>07</option>
+					<option>08</option>
+					<option>09</option>
+					<option>10</option>
+					<option>11</option>
+					<option>12</option>
+					<option>13</option>
+					<option>14</option>
+					<option>15</option>
+					<option>16</option>
+					<option>17</option>
+					<option>18</option>
+					<option>19</option>
+					<option>20</option>
+					<option>21</option>
+					<option>22</option>
+					<option>23</option>
+					<option>24</option>
+					<option>25</option>
+					<option>26</option>
+					<option>27</option>
+					<option>28</option>
+					<option>29</option>
+					<option>30</option>
+					<option>31</option>
+				</select>
+				</div>
+				<p class="f_box1">
+					※ 2주(14일)후 날짜부터 선택 가능합니다! 
+				</p>
+				<div class="howmany_box">
+				<select class="howmany">
+					<option>성인</option>
+					<option>01명</option>
+					<option>02명</option>
+					<option>03명</option>
+					<option>04명</option>
+					<option>05명</option>
+					<option>06명</option>
+					<option>07명</option>
+					<option>08명</option>
+					<option>09명</option>
+					<option>10명</option>
+					<option>11명</option>
+					<option>12명</option>
+					<option>13명</option>
+					<option>14명</option>
+					<option>15명</option>
+					<option>16명</option>
+					<option>17명</option>
+					<option>18명</option>
+					<option>19명</option>
+					<option>20명</option>
+				</select>
+				<select class="howmany">
+					<option>학생</option>
+					<option>01명</option>
+					<option>02명</option>
+					<option>03명</option>
+					<option>04명</option>
+					<option>05명</option>
+					<option>06명</option>
+					<option>07명</option>
+					<option>08명</option>
+					<option>09명</option>
+					<option>10명</option>
+					<option>11명</option>
+					<option>12명</option>
+					<option>13명</option>
+					<option>14명</option>
+					<option>15명</option>
+					<option>16명</option>
+					<option>17명</option>
+					<option>18명</option>
+					<option>19명</option>
+					<option>20명</option>
+				</select>
+				<select class="howmany">
+					<option>유아</option>
+					<option value="01">01명</option>
+					<option value="02">02명</option>
+					<option>03명</option>
+					<option>04명</option>
+					<option>05명</option>
+					<option>06명</option>
+					<option>07명</option>
+					<option>08명</option>
+					<option>09명</option>
+					<option>10명</option>
+					<option>11명</option>
+					<option>12명</option>
+					<option>13명</option>
+					<option>14명</option>
+					<option>15명</option>
+					<option>16명</option>
+					<option>17명</option>
+					<option>18명</option>
+					<option>19명</option>
+					<option>20명</option>
+				</select>
+				</div>
+				<p class="f_box2">
+					유아 : 37개월 이상<span>(36개월 이하는
+					성인1인당 동반1인 무료)</span><br>
+					학생 : 만 7세~ 만18세<br>
+					성인 : 만19세 이상
+				</p>
+				<textarea placeholder="그 외 문의사항을 적어주세요!"></textarea>
+			</div>
+		<div class="button_box">
+		<input class="button" type="reset" value="취소"></input>
+		<input class="button submit1" type="submit" value="보내기"></input>
+		</div><!--button_box E-->
+		</form>
+		<div class="form_bg"></div><!--form_bg E-->
+		</div><!--reserv_in E-->
+			<div class="popup"><!--팝업창-->
+				<div>
+					<p class="font_40 bold">예약확인</p>
+					<form>
+					<label>이름</label>
+					<input type="text" name="name" placeholder="이름을 입력하세요" maxlength="10"></input>
+					<label>비번</label>
+					<input type="password" name="password" placeholder="10자 이내로 비밀번호를 입력하세요" maxlength="10"></input>
+					<div class="button_box1">
+					<p><a class="button close">닫기</a></p>
+					<p><a class="button submit">확인</a></p>
+					</div>
+					</form>
+				</div>
+			</div>
+		<table id="reservation_now" cellspacing="0">
+			<tr>
+				<th colspan="2" class="rt1">예약문의현황</th>
+				<th colspan="2"><a class="button">예약확인</a></th>
+			</tr>
+			<tr>
+				<td>[20.08.08] 강*현님 신라의 달밤 예약문의</td>
+				<td>답변대기</td>
+				<td>20.07.13</td>
+				<td><a class="button1">예약중</a></td>
+			</tr>
+			<tr>
+				<td>[20.08.20~20.8.22] 이*일님 백제 한바퀴 예약문의</td>
+				<td>답변대기</td>
+				<td>20.07.13</td>
+				<td><a class="button1">예약중</a></td>
+			</tr>
+			<tr>
+				<td>[20.08.12~20.8.13] 김*욱님 신라 반바퀴 예약문의</td>
+				<td>답변대기</td>
+				<td>20.07.13</td>
+				<td><a class="button1">예약중</a></td>
+			</tr>
+			<tr>
+				<td>[20.08.10] 박*혜님 신라의 달밤 예약문의</td>
+				<td>답변완료</td>
+				<td>20.07.14</td>
+				<td><a class="button">예약완료</a></td>
+			</tr>
+			<tr>
+				<td>[20.08.22] 김*우님 신라의 달밤 예약문의</td>
+				<td>답변완료</td>
+				<td>20.07.14</td>
+				<td><a class="button">예약완료</a></td>
+			</tr>
+			<tr>
+				<td>[20.08.03~20.08.04] 김*하님 고구려 한바퀴 예약문의</td>
+				<td>답변완료</td>
+				<td>20.07.14</td>
+				<td><a class="button">예약완료</a></td>
+			</tr>
+			<tr>
+				<td>[20.08.19] 설*석님 온달장군과 함께하는 고구려 역사 예약문의</td>
+				<td>답변완료</td>
+				<td>20.07.14</td>
+				<td><a class="button">예약완료</a></td>
+			</tr>
+			<tr>
+				<td>[20.08.23] 이*선님 만파식적과함께하는 신라 역사  예약문의</td>
+				<td>답변완료</td>
+				<td>20.07.14</td>
+				<td><a class="button">예약완료</a></td>
+			</tr>
+			<tr>
+				<td>[20.08.15~20.08.16] 김*욱님 고구려 반바퀴 예약문의</td>
+				<td>답변완료</td>
+				<td>20.07.14</td>
+				<td><a class="button">예약완료</a></td>
+			</tr>
+		</table>
+	</div><!--box_1320 E-->
+	</div><!--reservation E-->
+	<div id="cancel">
+		<div class="cancelimg_box"><div class="cancel_p1">
+		<div class="bl_box"></div>
+		</div>
+		</div>
+		<div class="cancel_text">
+			<div class="cancel_t1"><p class="font_40 bold" data-aos="fade-right"  data-aos-duration="1800">예약변경 및 취소</P></div>
+			<div class="c_text_in">
+				<p class="font_25 bold mg70">예약변경 및 예약취소 안내사항</p>
+				<p class="font_20 bold">일정변경 및 취소 가능 일자</p>
+				<p class="font_16 bold">변경 가능 : 예약신청일 ~ 예약일 5일전<br>
+				취소 가능 : 예약 신청일 ~ 예약일 3일전</p>
+				<p class="font_12">상기 기간 외의 취소및 변경 사항은 고객센터(1588-2345)로 연락주세요.<br>
+				인원변동 등 기간 변경 외의 사항도 고객센터로 문의 바랍니다.<p>
+				<p class="font_20 bold mg40">취소 수수료</p>
+				<table class="cancel_pay" cellspacing="0">
+					<tr>
+						<th>취소일</th>
+						<th>취소수수료</th>
+					</tr>
+					<tr>
+						<td>예약 당일 ~ 예약일 2일전</td>
+						<td>환불 불가</td>
+					</tr>
+					<tr>
+						<td>예약일 3일전~7일전</td>
+						<td>50%</td>
+					</tr>
+					<tr>
+						<td>예약일 8일 이상 이전</td>
+						<td>전액 환불</td>
+					</tr>
+				</table>
+				<p class="font_12">※폭우 등의 기상여건으로 인해 여행이 취소될 수 있으며, 기상여건으로 인한<br>취소시 취소일과 관련 없이 전액 환불 또는 일정변경이 가능합니다.
+				<p class="font_20 bold mg40">취소 신청 및 취소 문의안내</p>
+				<table class="customer_c1" cellspacing="0">
+					<tr>
+						<th>유선 고객센터</th>
+						<td><span class="font_20 bold">1588-2345<br>
+						051-253-5111</span><br>
+						응대가능시간 : 09:00~18:00<br>
+						(월요일 휴무)</td>
+					</tr>
+					<tr>
+						<th>카카오톡</th>
+						<td>플러스친구<span class="font_20 bold">@옛길로</span>문의<br>
+						응대가능시간 : 9:00 ~ 22:00<br>
+						(월요일 : 09:00~18:00)</td>
+					</tr>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div id="footer_in">
+			<img src="images/logo_f.png" alt="푸터로고" class="f_logo">
+			<div class="f_text">
+				<ul class="f2 font_12">
+					<li><a href="#">이용약관</a></li>
+					<li><a href="#">이메일무단수집거부</a></li>
+					<li><a href="#">개인정보처리방침</a></li>
+					<li><a href="#">문의하기</a></li>
+				</ul>
+				<p class="font_12">옛길로 / (49247) 부산광역시 서구 구덕로 114번길 3층 / 대표 : 강지현 사업자 번호 : 253-87-39771<br>통신판매업신고번호 : 5842-부산서구-2115 / 개인정보보호책임자 : 강지현 / 고객센터 : 1588-2345</p>
+				<p class="bold">COPYRIGHT ⓒ 옛길로 ALL RIGHTS RESERVED </p>
+			</div><!-- f_text E -->
+			<ul class="mcustomer_c">
+				<li class="font_20">고객문의센터</li>
+				<li>1588-2345</li>
+				<li class="font_15">평일 : 09:00 ~18:00<br>
+				<span class="font_12">매주 월요일 휴무</span></li>
+			</ul>
+		</div><!-- footer_in E -->
+	</div>
+</body>
+</html>

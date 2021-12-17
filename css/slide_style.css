@@ -1,0 +1,31 @@
+    .slider {
+        width: 1335px;
+        margin: auto;
+		box-sizing: border-box;
+    }
+
+    .slick-slide {
+      margin: 0px 7.5px;
+	  box-sizing: border-box;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+  
+    }
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: 1;
+	  box-sizing: border-box;
+    }
+    
+    .slick-active {
+      opacity: 1;
+	  box-sizing: border-box;
+    }
+
+    .slick-current {
+      opacity: 1;
+	  box-sizing: border-box;
+    }

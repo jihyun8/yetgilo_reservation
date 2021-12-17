@@ -1,0 +1,205 @@
+/*header*/
+#header{background:url(../images/main_bg_4.jpg) no-repeat top center;
+	height:657px;
+	text-align:center;}
+
+/*notice*/
+#notice{width:100%;
+	position:relative;
+	height:auto;/*크기 조정해야함!*/
+	box-sizing:border-box}
+#notice .box1{position:relative;
+	height:550px;}
+.notice_img{width:40.625%;
+	background:url(../images/notice_img.jpg) no-repeat right top;
+	height:636px;
+	position:absolute;
+	top:-146px;
+	left:0;}
+.notice_text{width:1100px;
+	height:400px;
+	background:rgba(236,233,224,0.9);
+	position:absolute;
+	top:77px;
+	right:0;
+	padding:80px 55px 0 55px;
+	box-sizing:border-box;}
+.notice_title{width:57.34%;
+	height:167px;
+	background:rgba(92,88,77,0.9);
+	position:absolute;
+	top:-50px;
+	left:39.01%;}
+.notice_title h5{color:#fff;
+	padding:40px 0 0 40px;}
+.notice_text p:nth-child(2){float:right;
+	padding-bottom:50px;}
+.notice_text p:nth-child(1){float:left;}
+
+.notice_text .font_16{clear:both;
+	width:100%;
+	line-height:26px;}
+	
+/*notice_table*/
+.notice_table{width:989px;
+	margin:auto;
+	box-sizing:border-box;
+	margin-bottom:200px;
+	font-size:16px;
+	line-height:26px;
+	overflow:hidden}
+.notice_table li{ width:100%;cursor:pointer}
+.notice_table ul li{float:left;padding: 15px 0;
+	heigt:56px}
+.notice_table ul{overflow:hidden;}
+
+
+.notice_table ul li:nth-child(3){width:100px;
+	text-align:center;}
+.notice_table ul li:nth-child(2){width:67px;
+	text-align:center;}
+.notice_table ul li:nth-child(1){padding-left:20px;
+	width:822px;
+	box-sizing:border-box}
+.nt_bg{background:#ece9e0}
+.bt{width:100%;
+	clear:both;
+	padding:30px 20px 24px;
+	box-sizing:border-box;
+	display:none;
+	height:auto;}
+	
+	
+/*review*/
+.review_event{width:100%; display:block;}
+.review_event1{	background:#5c584d url(../images/community_banner.jpg) no-repeat center top;
+	height:512px;
+	background-size:contain}
+.best_bg_box{position:relative;}
+.best_bg1{background:url(../images/review_bg1.png) no-repeat top right; width:87.76%; height:769px;
+	position:absolute; z-index:-1;}
+.best_title{padding:95px 0 0 207px;
+	line-height:60px;
+	box-sizing:border-box;}
+.best1 .best_title{background:url(../images/best_1.png) no-repeat top left;
+	height:176px;padding:135px 0 0 207px;}
+.best2 .best_title{background:url(../images/best_2.png) no-repeat top left;
+	height:176px;}
+.best3 .best_title{background:url(../images/best_3.png) no-repeat top left;
+	height:176px;}
+.writer_best{text-align:right;
+	padding-bottom:55px;}
+.best_text{width:580px;
+	box-sizing:border-box;}
+#community .font_16{padding-top:25px;}
+.best1{position:relative;
+	padding-top:105px;
+	height:769px;
+	box-sizing:border-box;
+	margin-bottom:110px;}
+.best1 .best_photo{background:url(../images/review_img1.png) no-repeat top left;
+	height:519px;
+	position:absolute;
+	top:105px;
+	right:-55px;
+	width:743px;}
+.best2{position:relative;
+	height:596px;
+	width:100%;
+	margin-bottom:110px;}
+.best2 .best_photo{background:url(../images/review_img2.png) no-repeat top right;
+	height:596px;
+	width:44.27%;
+	position:absolute;
+	top:0;
+	left:0;}
+.best3 .best_photo{background:url(../images/review_img3.jpg) no-repeat top left;
+	height:596px;
+	position:absolute;
+	left:50%;	
+	width:50%;
+	top:0;
+	margin-top:60px;
+	box-sizing:border-box;}
+.best2 .best_text{
+	height:596px;
+	position:absolute;
+	top:0;
+	left:48.96%;}
+.best3{position:relative;
+	height:716px;}
+.best3 lbox_1320{position:relative;}
+.best3 .best_text{float:left;
+	height:716px;
+	padding-top:60px;
+	box-sizing:border-box;}
+.best_bg2{background:#ece9e0;
+	max-width:1320px;
+	min-width:1684px;
+	right:0px;
+	top:0px;
+	position:absolute;
+	height:716px;
+	z-index:-1;}
+
+.review_other{overflow:hidden;
+	margin:100px 0;}
+.review_other li{width:300px;
+	height:450px;
+	float:left;
+	margin:0px;
+	padding:10px;
+	transition:opacity 5s}
+.review_other li> div{width:300px;
+	height:250px;
+	overflow:hidden;
+	position:relative;}
+.review_other li .co_bl{background:rgba(0,0,0,0.5);
+	position:absolute;
+	top:0; left:0;
+	z-index:3;
+	width:100%;
+	height:100%;
+	opacity:0}
+.review_other li:hover{background:#ece9e0;}
+.review_other li:hover img{transform:scale(1.08, 1.08);}
+.review_other li:hover .co_bl{opacity:1}
+.review_other li:nth-child(1){margin-left:0;}
+.review_other li:nth-child(4){margin-right:0;}
+.review_other li .font_25{padding-top:30px;}
+.review_other li .writer{text-align:right;
+	font-size:10px;}
+.review_other li .when_what{font-size:10px;
+	padding:3px 0;}
+	
+@-webkit-keyframes re_imgs1 {
+            0%{background:url(../images/review_img4.jpg) no-repeat center top;}
+            45% {background:url(../images/review_img4_2.jpg) no-repeat center top;}
+            75% {background:url(../images/review_img4_3.jpg) no-repeat center top;}
+            100% {background:url(../images/review_img4.jpg) no-repeat center top;}
+			}
+@-webkit-keyframes re_imgs2 {
+            0%{background:url(../images/review_img5.jpg) no-repeat center top;}
+            45% {background:url(../images/review_img5_2.jpg) no-repeat center top;}
+            75% {background:url(../images/review_img5_3.jpg) no-repeat center top;}
+            100% {background:url(../images/review_img5.jpg) no-repeat center top;}
+			}
+@-webkit-keyframes re_imgs3 {
+            0%{background:url(../images/review_img6.jpg) no-repeat center top;}
+            45% {background:url(../images/review_img6_2.jpg) no-repeat center top;}
+            75% {background:url(../images/review_img6_3.jpg) no-repeat center top;}
+            100% {background:url(../images/review_img6.jpg) no-repeat center top;}
+			}
+@-webkit-keyframes re_imgs4 {
+            0%{background:url(../images/review_img7.jpg) no-repeat center top;}
+            45% {background:url(../images/review_img7_2.jpg) no-repeat center top;}
+            75% {background:url(../images/review_img7_3.jpg) no-repeat center top;}
+            100% {background:url(../images/review_img7.jpg) no-repeat center top;}
+			}
+
+.review_other li:nth-child(1)>div{ background:url(../images/review_img4.jpg) no-repeat center top;-webkit-animation: re_imgs1 10s infinite;}
+.review_other li:nth-child(2)>div{background:url(../images/review_img5.jpg) no-repeat center top;-webkit-animation: re_imgs2 10s infinite;}
+.review_other li:nth-child(3)>div{ -webkit-animation: re_imgs3 10s infinite;
+background:url(../images/review_img6.jpg) no-repeat center top;}
+.review_other li:nth-child(4)>div{-webkit-animation: re_imgs4 10s infinite; background:url(../images/review_img7.jpg) no-repeat center top;}
+

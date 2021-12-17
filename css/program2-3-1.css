@@ -1,0 +1,195 @@
+/*header*/
+#header{background:url(../images/main_bg_2.jpg) no-repeat top center;
+	height:634px;
+	text-align:center;}
+
+	
+/*sub_banner*/
+.sub_banner{height:532px;
+	width:100%;
+	position:relative;}
+.sub_bg3{background:#dad6cb url(../images/banner_bg3.png) no-repeat right bottom;}
+.sub_bg2{background:#dad6cb url(../images/banner_bg2.png) no-repeat right bottom;}
+.sub_bg1{background:#dad6cb url(../images/banner_bg1.png) no-repeat right bottom;}
+.sub_bg4{background:#dad6cb url(../images/banner_bg4.png) no-repeat right bottom;}
+.subb_text{width:400px;
+	float:left;
+	padding:113px 0 0 160px;}
+.subb_text .p_text .bold{font-size:61.29px;
+	line-height:61px;
+	padding-bottom:30px;
+	border-bottom:10px solid #807966}
+.subb_text .p_text .sb_t{font-size:21.45px;
+	line-height:36.77px;
+	padding-top:65px;}
+.subb_img{float:right;
+	padding-top:66px;}
+.tap_box{position:absolute;
+	top:-66px;
+	left:0;
+	width:100%;
+	text-align:center;}
+.tap{display:inline-block;}
+.tap li{float:left;
+	}
+.tap li a{display:block;
+	padding:16.5px 30px;
+	text-align:right;
+	margin-left:5px;
+	background:#9a9788;
+	border-radius:5px 5px 0 0;}
+.tap li a.on_bg{background:#dad6cb;}
+.tap li a:hover{background:#dad6cb;
+	transition:all 0.3s}
+
+/*contents*/
+.contents{overflow:hidden;
+	margin-top:150px}
+.contents_box1{background:#dad6cb;
+	width:484px;
+	height:auto;
+	text-align:center;}
+.contents_box2{width:809px;}
+.card_t1{font-size:25.59px;
+	line-height:25px;
+	padding:40px 0 20px;}
+.lc{letter-spacing:-1px}
+.card_t2{font-size:42.64px;
+	line-height:51.17px;
+	color:#2b2a26;
+	padding-bottom:40px;}
+.card_t3{display:inline-block;
+	font-size:29.79px;
+	line-height:29px;
+	color:#dad6cb;
+	background:rgba(70,66,57,0.7);
+	height:auto;
+	padding:14px 33px;
+	border-radius:28.5px;
+	margin-left:60px;}
+.card_t4{display:inline-block;
+	line-height:14px;
+	color:#dad6cb;
+	background:rgba(70,66,57,0.5);
+	padding:4px 0;
+	height:auto;
+	border-radius:28.5px;
+	width:54px;
+	text-align:center;}
+.f_box{padding:70px 80px 40px 0;
+	overflow:hidden;}
+.f_box2{height:50px;
+	width:100%;
+	margin-bottom:55px;}
+.f_box2 .right{width:61.98%;
+	padding-left:20px; box-sizing:border-box;}
+.f_box2 .left{width:38.02%;
+	text-align:right}
+.box1{width:62%;
+	height:143px}
+.left{float:left;}
+.right{float:right;
+	text-align:left;}
+.contents_box1 .font_20{color:#2b2a26;}
+.qbox{position:relative;
+	display:inline-block}
+.qbox img{display:block;}
+.q1{position:absolute;
+	top:11px;
+	right:-16px;
+	visibility:hidden;}
+.price{text-align:right;
+	box-sizing:border-box;
+	width:38%;
+	padding-top:14px}
+span{padding-left:0}
+.contents_box1 .price .font_12{line-height:11px;}
+.contents_box1 .price .font_12{display:inline}
+.qbox:hover .q1{visibility:visible;}
+
+/*course*/
+.course{width:809px;overflow:hidden;}
+
+.course table{width:647.5px;
+	text-align:center;}
+.course table th{font-size:16px;
+	padding:17px 0;
+	color:#fff;
+	vertical-align:top}
+.course table td{padding:3px 0;
+	background:rgba(186,180,162,0.2);
+	vertical-align:top;}
+.course table td:nth-child(2){background:#dddcd8}
+table .tp td{padding-top:25px;}
+table .tb td{padding-bottom:25px;}
+.course table th.day{font-size:20px;
+	width:92px;}
+.course table th{background:#a6a39c}
+.course table th:nth-child(2){width:140px;}
+.course table th:nth-child(3){background:#9a9790;
+	width:160px;}
+	
+/*goal, guide, Uniqueness */
+.goal{clear:both;
+	width:100%;
+	text-align:center;
+	height:auto;
+	padding:31px 0;
+	background:#ece9e0;
+	margin-top:40px;}
+	
+.guide1 li, .guide2 li{float:left;}
+.guide1{width:100%;
+	padding-top:40px;
+	box-sizing:border-box}
+.guide1 li:nth-child(1){width:150px;
+	text-align:center;}
+.guide1 li:nth-child(2){width:92px;	text-align:center;}
+.guide1 li:nth-child(3){width:567px; padding-left:40px;box-sizing:border-box;}
+.guide2{display:inline-block;
+	margin:15px 0 20px}
+.guide2 li{width:255px; box-sizing:border-box}
+.guide2 li:nth-child(2){padding-left:40px;}
+.guide2 li:nth-child(1){padding-left:7px;
+	border-right:dashed 1px #807966}
+.uniqueness{ overflow:hidden;
+	height:122px;
+	box-sizing:border-box;
+	clear:both;
+	width:100%;
+	padding-top:25px;
+	background:#ece9e0;}
+.uniqueness div{float:left;}
+.uniqueness div:nth-child(1){width:150px;text-align:center;}
+.uniqueness div:nth-child(2){padding-left:20px;}
+
+/*tour_info*/
+.tour_info{width:100%;
+	margin-bottom:100px;
+	overflow:hidden;}
+.tour_info li{width:400px;
+	float:left;
+	margin:10px 0 60px;}
+.tour_info li:hover img{transform:scale(1.2, 1.2)}
+.tourinfo_box{width:400px;
+	height:267px;
+	overflow:hidden;}
+.contents ul.pb_0{padding-top:10px;}
+.contents ul img{display:block;transition:transform 1s;}
+.contents ul.pb_0 li:nth-child(3), .contents ul.pb_0 li:nth-child(4){padding-top:0;}
+.tour_info li div{float:left;}
+.tour_info li:nth-child(2), .tour_info li:nth-child(4), .tour_info li:nth-child(6){padding-left:9px;}
+.tour_info li.mb0{margin:0;}
+.name_t{position:relative;
+	width:400px;
+	height:25px;
+	margin:27px 0;}
+.name_t div{position:absolute;}
+.name_t div:nth-child(2){top:5px; right:25px;text-align:right;}
+.name_t div:nth-child(1){top:0; left:0;}
+
+.recommand_title{font-size:30px;line-height:46px;
+	border-left:10px solid #807966;
+	padding-left:28px;
+	margin-bottom:35px}
+.recommand{margin-bottom:100px;}
